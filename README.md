@@ -1,4 +1,4 @@
 Sandbox
 =======
 
-https://docs.google.com/presentation/d/1yJ96m6cko3GqidUb4Jnp2Or9yk2yFGY_-hsqo8gUEw0/pub?start=true&loop=false&delayms=3000
+CED Presentation: https://docs.google.com/presentation/d/1-QE-hw5wZs3mN0ta_5GXpdIo1BsHKA5fzhwgoNSSn6o/pub?start=false&loop=false&delayms=60000
