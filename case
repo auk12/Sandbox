@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
+    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
+    <title>Case Presentation: Psych</title>
+    <style>
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Oswald|Oxygen);
+      body {
+        font-family: 'Oxygen';
+      }
+      h1, h2, h3 {
+        font-family: 'Oswald';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 1.8em; }
+      .remark-slide-content h3 { font-size: 1.3em; }
+      .footnote {
+        position: absolute;
+        bottom: 1.5em;
+        left:27%;
+        margin-left:-200px;
+        width:800px;
+        height:100px;
+        font-size: 0.5em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(51,153,204);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 26%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 70%;
+        float: right;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+# Sequelae of Trauma
+# In a Young Adult Female
+
+Presented by: Amogh Karnik, MD3
+.footnote[July 28, 2015]
+
+---
+template: inverse
+
+# The Case: CS
+---
+
+layout: false
+.left-column[
+  ### Presenting Problem
+]
+.right-column[
+CS is a 24 year old female admitted from the ED on a 201, with primary complaints of suicidal thoughts, auditory and visual hallucinations, and nightmares.
+
+- Her auditory hallucinations call out her name, and tell her to cut herself
+
+- Her visual hallucinations are of an "animal" that calls out her name, and tells her to cut herself
+
+- History of cutting herself - several visible lacerations on her arms
+
+- Trouble staying asleep due to nightmares about her stepfather
+]
+---
+
+.left-column[
+  ### Presenting Problem
+  ### Vegetative Signs of Depression
+]
+.right-column[
+- Very poor **sleep** due to difficulty initiating and staying asleep
+
+- Virtually no **interest** or motivation in any activities
+
+- Overwhelming sense of **guilt** and hopelessness
+
+- Very poor levels of **energy**
+
+- Inability to focus and **concentrate** on any given task
+
+- Decreased **appetite** with indeterminate weight loss at time of interview
+
+- **Suicidal ideation** with plan, and history of multiple previous attempts
+
+- Excessive worry and **anxiety** about her hallucinations and nightmares
+]
+
+???
+
+These are presenter notes.
+
+
+
+
+---
+.left-column[
+  ### Presenting Problem
+  ### Vegetative Signs of Depression
+  ### Current Medications
+
+]
+.right-column[
+CS was a relatively poor historian and unable to recall the names or dosages of any of her medications at the time of initial interview.
+Records revealed that CS was currently taking the following:
+
+- **Bupropion** (twice daily) for depression
+
+- **Paroxetine** (once daily) for depression
+
+- **Doxepin** (thrice daily) for depression
+
+- **Prazosin** (at bedtime) for nightmares
+
+- **Trazodone** (at bedtime) for sleep
+
+]
+---
+.left-column[
+  ### Presenting Problem
+  ### Vegetative Signs of Depression
+  ### Current Medications
+  ### Medical History
+
+]
+.right-column[
+Past Medical History includes:
+
+- Diabetes mellitus (Type 2)
+  - Treated with oral metformin (twice daily)
+
+- Hypothyroidism
+  - Treated with oral levothyroxine (once daily)
+
+]
+
+---
+.left-column[
+  ### Presenting Problem
+  ### Vegetative Signs of Depression
+  ### Current Medications
+  ### Medical History
+  ### Psychiatric History
+]
+.right-column[
+- First psychiatric contact at age 14, for cutting herself
+
+- Has been admitted to 4N three times prior to this admission in 2015 - all for suicidal and self-harm ideation
+
+- Patient reported outpatient treatment with Northeast Counseling, but records revealed that she had not attended an appointment since 2008
+
+- Emotionally, physically abused by mother and father as a child, eventually moved into foster care
+
+- Sexually abused by stepfather and gave birth to a child at age 17 - child now lives with patient's grandparents
+  - Nature of trauma was not revealed during initial evaluation
+
+
+]
+---
+.left-column[
+  ### Presenting Problem
+  ### Vegetative Signs of Depression
+  ### Current Medications
+  ### Medical History
+  ### Psychiatric History
+  ### Social History
+]
+.right-column[
+- Unemployed after being terminated in June 2015 due to suffering from "panic attacks" at her workplace
+
+- Currently lives with her sister and sister's husband since March 2015, after not being permitted to return to her previous home with her aunt and uncle due to her psychiatric hospitalization in January, 2015
+
+- Graduated from LCC in 2013 with an Associate's degree
+
+- Family history of mental illness:
+  - Depression: mother, father, aunt
+  - Completed suicides: 2 cousins
+  - Attempted suicides: younger sister
+  - Drug/alcohol abuse: mother, father, older brother
+
+]
+
+---
+.left-column[
+  ### Presenting Problem
+  ### Vegetative Signs of Depression
+  ### Current Medications
+  ### Medical History
+  ### Psychiatric History
+  ### Social History
+  ### Substance Use
+]
+.right-column[
+- Drinks 4-6 drinks at least 5-6 days per week; admits that this is a problem, but doesn't know what to do about it
+
+- Currently smokes 2 packs of cigarettes per day; began smoking at age 16
+
+- Denies any other drug use, but reports that the police found her with heroin on her person a few days prior to her admission; she denied using and toxicology screens were negative
+]
+---
+
+.left-column[
+### Mental Status Exam
+]
+.right-column[
+- Appears casually dressed and age-appropriate
+
+- Candid, cooperative, and pleasant on approach and during evaluation
+
+- Speech was very soft on approach and during evaluation
+
+- Mood described as "anxious and depressed" with blunted affect
+
+- Auditory and visual hallucinations were previously present, but not at the time of evaluation
+
+- Oriented to person, place, time, and situation
+
+- Sleepy, and not alert during evaluation
+
+- Responses to questions lacked necessary details
+
+- Judgment and insight both assessed as limited
+]
+
+???
+
+These are presenter notes.
+
+---
+.left-column[
+### Mental Status Exam
+### Differential Diagnosis
+]
+.right-column[
+- Major Depression, Recurrent with Psychotic Features
+
+- Alcohol Use Disorder, Moderate
+
+- Posttraumatic Stress Disorder
+
+]
+
+???
+
+These are presenter notes.
+---
+template: inverse
+
+# Post-Traumatic
+# Stress Disorder
+# [PTSD]
+---
+
+.left-column[
+## Diagnosis
+]
+.right-column[
+- Diagnosis can be especially challenging due to:
+  - Lack of patient recognition that their symptoms are linked to a previous traumatic experience
+  - Patient unwillingness to discuss the traumatic experience to others
+  - Patient's symptoms are masked by the symptoms of comorbid conditions, including depression, anxiety, substance abuse, or other mental health conditions
+
+- Typically characterized by intrusive thoughts, flashbacks, avoidance of stimuli associated with the trauma, hypervigilance/anxiety, and sleep disturbances
+
+- Can also occur as the following subtypes:
+  - With dissociative symptoms
+  - With delayed expression (approximately 25% of patients experience symptoms > 6 months after the trauma)
+
+]
+---
+.left-column[
+## Epidemiology
+
+]
+.right-column[
+- Lifetime prevalence: 6.8-12.3% of the United States population .red[<sup>1</sup>]
+
+- Women are four times more likely to develop PTSD than men .red[<sup>2</sup>]
+
+- Sexual assault is the most frequent form of trauma that results in PTSD among women .red[<sup>1</sup>]
+
+- Individuals who have been previously victimized are more likely to be victimized again; thus, the risk for PTSD increases
+
+]
+.footnote[
+.red[<sup>1</sup>] Kessler, R. C., Chiu, W. T., Demler, O., & Walters, E. E. (2005). Prevalence, severity, and comorbidity of 12-month DSM-IV disorders in the National Comorbidity Survey Replication. Archives of general psychiatry, 62(6), 617-627.
+
+.red[<sup>2</sup>] Vieweg, W. V. R., Julius, D. A., Fernandez, A., Beatty-Brooks, M., Hettema, J. M., & Pandurangi, A. K. (2006). Posttraumatic stress disorder: clinical features, pathophysiology, and treatment. The American journal of medicine, 119(5), 383-390.
+]
+---
+.left-column[
+## Comorbidity
+]
+.right-column[
+- The National Comorbidity Survey .red[<sup>3</sup>] from 1990 suggested that:
+  - 16% of all patients with PTSD have **one** comorbid psychiatric disorder
+  - 17% of all patients with PTSD have **two** comorbid psychiatric disorders
+  - 50% of all patients with PTSD have **three or more** comorbid psychiatric disorders
+
+- Some studies have shown that somatization disorders are 90 times more likely to occur in PTSD patients than in those without PTSD .red[<sup>4</sup>]
+
+- Affective (usually depressive) disorders, anxiety disorders, and substance use disorders are 2-4 times more common in PTSD patients than in the general population
+
+.footnote[
+.red[<sup>3</sup>] Kessler, R. C., Sonnega, A., Bromet, E., Hughes, M., & Nelson, C. B. (1995). Posttraumatic stress disorder in the National Comorbidity Survey. Archives of general psychiatry, 52(12), 1048-1060.
+
+.red[<sup>4</sup>] Davidson, J. R., Hughes, D., Blazer, D. G., & George, L. K. (1991). Post-traumatic stress disorder in the community: an epidemiological study. Psychological medicine, 21(03), 713-721.
+]
+]
+---
+.left-column[
+## Treatment Approaches
+]
+.right-column[
+- Multifocal nature of PTSD requires a treatment approach that involves patient education, social support, psychotherapy, and pharmacologic intervention .red[<sup>5</sup>]
+
+- Patient education and social support play a critical role in the short term after the trauma/diagnosis of PTSD in order to decrease a patient's sense of survivor guilt or stigmatization associated with the trauma
+
+- Psychotherapy, specifically Cognitive-Behavior Therapy (CBT), is the primary mode of psychotherapy that has been utilized successfully in patients with PTSD
+  - Highest dropout rates result from exposure-subtype CBT, but all subtypes of CBT have been found to be equally effective
+
+- Pharmacologic therapy is primarily based on the use of SSRIs for treatment and preventing relapse
+]
+
+.footnote[.red[<sup>5</sup>] Grinage, B. D. (2003). Diagnosis and management of post-traumatic stress disorder. American Family Physician, 68(12), 2401-2408. ]
+
+---
+.left-column[
+## Prazosin for PTSD & Alcohol Dependence (Simpson et al. 2015 .red[<sup>5</sup>])
+]
+.right-column[
+- Relatively little evidence is present to suggest any novel treatment for comorbid PTSD and alcohol use disorder
+
+- The adrenergic system is implicated in both PTSD and alcohol use disorder;
+  - Elevated sensitivity to the norepinephrine in the CNS is hypothesized as part of the pathophysiology of PTSD
+  - Alcohol withdrawal results in an elevated level of norepinephrine, which is responsible for the rewarding effects of alcohol on the brain
+]
+  .footnote[.red[<sup>5</sup>] Simpson, T. L., Malte, C. A., Dietel, B., Tell, D., Pocock, I., Lyons, R., ... & Saxon, A. J. (2015). A Pilot Trial of Prazosin, an Alpha‐1 Adrenergic Antagonist, for Comorbid Alcohol Dependence and Posttraumatic Stress Disorder. Alcoholism: Clinical and Experimental Research, 39(5), 808-817.]
+
+---
+.left-column[
+## Prazosin for PTSD & Alcohol Dependence (Simpson et al. 2015 .red[<sup>5</sup>])
+]
+.right-column[
+- Currently, prazosin is used to treat patients with PTSD suffering from nightmares, decreasing the amount of noradrenergic neurotransmission in the CNS during sleep, thus providing some relief
+
+- Simpson et al. hypothesized that the use of prazosin in patients with comorbid PTSD and alcohol use disorder could potentially improve both PTSD and alcohol use disorder outcomes when compared to placebo
+]
+---
+.left-column[
+## Prazosin for PTSD & Alcohol Dependence (Simpson et al. 2015 .red[<sup>5</sup>])
+]
+.right-column[
+- Pilot double blind RCT studying the effects of prazosin vs. placebo
+
+- Primary outcomes:
+  - Self-reported drinking days per week
+  - Self-reported heavy drinking days per week (>5 drinks/day for men, >4 drinks/day for women)
+
+- Secondary outcomes:
+  - PTSD symptomatology, including total symptoms, re-experiencing trauma, avoidance/numbing, hypervigilance, and a single, recurrent dream item
+]
+
+---
+
+.center[![Results1](http://i.imgur.com/bFEpFJy.png)]
+
+---
+
+.center[![Results](http://i.imgur.com/zN8bqg2.png)]
+
+---
+.left-column[
+## Prazosin for PTSD & Alcohol Dependence (Simpson et al. 2015 .red[<sup>5</sup>])
+]
+.right-column[
+- Prazosin provided a signiﬁcant beneﬁt vs. placebo for percent drinking days per week, percent heavy drinking days per week, and number of drinks consumed per week
+
+- Prazosin did **not** significantly reduce PTSD symptomatology, which was unexpected given previous studies on the use of prazosin for patients with PTSD
+  - Patients in this study were not exposed to a robust behavioral treatment approach, which may account for the lack of effectiveness of pharmacologic treatment alone in these patients
+]
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+    <script src="remark.language.js"></script>
+    <script>
+      var slideshow = remark.create({
+          highlightStyle: 'monokai',
+          highlightLanguage: 'remark'
+        }) ;
+    </script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-44561333-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.scripts[0];
+        s.parentNode.insertBefore(ga, s);
+      }());
+    </script>
+  </body>
+</html>
